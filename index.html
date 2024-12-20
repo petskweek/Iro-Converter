@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iro.png" type="image/x-icon" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="manifest" href="manifest.json">
+    <title>Doggo the forg</title>
+    <style>
+        .button-29 {
+        align-items: center;
+        appearance: none;
+        background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+        border: 0;
+        border-radius: 6px;
+        box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        font-family: "JetBrains Mono",monospace;
+        height: 48px;
+        justify-content: center;
+        line-height: 1;
+        list-style: none;
+        overflow: hidden;
+        padding-left: 16px;
+        padding-right: 16px;
+        position: relative;
+        text-align: left;
+        text-decoration: none;
+        transition: box-shadow .15s,transform .15s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        will-change: box-shadow,transform;
+        font-size: 18px;
+        }
+
+        .button-29:focus {
+        box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+        }
+
+        .button-29:hover {
+        box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+        transform: translateY(-2px);
+        }
+
+        .button-29:active {
+        box-shadow: #3c4fe0 0 3px 7px inset;
+        transform: translateY(2px);
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <center>
+        <div style="
+        padding-top: 8%;
+        margin-right: 7%;
+        margin-left: 7%;
+        border-style: solid;
+        border-width: 4px;
+        border-radius: 15px;
+        border-color: white;
+        background-color: #3c4fe0; 
+        ">
+            
+            <img src="" alt="" id="yes" 
+            style="
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            height: 400px;
+            width: 60%;">
+            <button class="button-29" role="button" onclick="show()"
+            >Randomized Dog Photo</button>
+            <h2 class="animate__animated animate__backInUp">Status:</h2>
+            <h1  id="no" style="color: rgb(150, 202, 231);"></h1>
+        </div>
+    </center>
+
+    <script src="main.js"></script>
+
+</body> 
+</html>
