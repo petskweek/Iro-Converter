@@ -2,5 +2,12 @@
     "name": "Iro Converter",
     "short_name": "Iro",
     "start_url": "/index.html",
-    "display": "browser"
+    "display": "browser",
+    "icons": [
+    {
+      "src": "Iro.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+    ]
   }
